@@ -9,8 +9,9 @@
 
 @media screen and (min-width:1200px) {
     #hamburger-nav {
-        visibility: hidden !important;
+        display: none;
+       /* visibility: hidden !important;*/
     }
-    
-    }
-    
+}
+
+/* I fixed the issue by setting a oppsite min width at 1200px and set display to none so layout is not affected. the visibility and hidden important removed it but it still affected the layout. It turns out mediaqueries need display set to none even though css has it as well*/
