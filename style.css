@@ -38,6 +38,10 @@ nav {
     height: 17vh;
 }
 
+ul li {
+    text-align: center;
+}
+
 .nav-links {
     gap: 2rem;
     list-style: none;
@@ -53,7 +57,7 @@ a {
 a:hover {
     color: grey;
     text-decoration: underline;
-    text-underline-offset: 1rem;
+    text-underline-offset: 0.5rem;
     text-decoration-color: rgb(181, 181, 181);
 }
 
@@ -97,7 +101,7 @@ a:hover {
     top: 100%;
     right: 0;
     background-color: white;
-    width: fit-content;
+    width: auto;
     max-height: 0;
     overflow: hidden;
     transition: all 0.3 ease-in-out;
@@ -107,7 +111,7 @@ a:hover {
     display: block;
     padding: 10px;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 0.7rem;
     color: black;
     text-decoration: none;
     transition: all 0.3 ease-in-out;
